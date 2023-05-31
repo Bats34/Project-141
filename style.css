@@ -1,0 +1,56 @@
+body
+{
+background-size: cover;
+background-position: center;
+}
+.heading {
+    width: 100%;
+    margin: 0px;
+    line-height: 2;
+}
+.heading h1 {
+    float: left;
+    display: inline;
+    font-size: 25px;
+    
+}
+#instruction {
+    float: right;
+    margin-right: 10px;
+    border: 1px solid white;
+    font-size: 15px;
+    display: inline;
+    margin-top: 20px;
+}
+#status, #btn1,#re {
+    font-size: 20px;
+}
+canvas{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.cpr {
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    position:fixed;
+    background-color: grey;
+    color: aliceblue;
+    border: 3px solid black;
+    font-size: 25px;
+
+}
+.modal-dialog {
+    width: 90%;
+    height: 70%;
+    font-size: 25px;
+    text-align: left;
+}
+video {
+    border-radius: 20px;
+    border: 5px solid white;
+    padding: 0px;
+}
